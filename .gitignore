@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python / Virtualenv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Huge raw downloads & transient caches
+data/raw/uspto/*.zip
+data/raw/uspto/*.tsv
+data/cache/
+data/rejected_cases.jsonl
+
+# SQLite & large binary exports (uncomment if you want to keep DB/tensors local)
+data/*.db
+data/*.db-journal
+data/exports/*.pt
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
