@@ -95,6 +95,7 @@ class TRIZExtractor:
         cache_dir: str | Path = "data/cache",
         max_concurrency: int = 5,
         rpm_limit: int = 12,
+        
     ) -> None:
         self.provider = (provider or os.getenv("LLM_PROVIDER", "gemini")).lower()
         if self.provider not in PROVIDER_DEFAULTS:

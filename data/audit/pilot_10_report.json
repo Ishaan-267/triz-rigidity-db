@@ -1,0 +1,121 @@
+{
+  "audit_csv": "data/audit/pilot_10.csv",
+  "audited_graphs": 10,
+  "audited_case_ids": [
+    "trizbench_US5462001",
+    "trizbench_US5493580",
+    "trizbench_US5543179",
+    "trizbench_US5647173",
+    "trizbench_US6073286",
+    "uspto_11540931_to_11660058",
+    "uspto_11560779_to_11661832",
+    "uspto_11585572_to_11835262",
+    "uspto_11596507_to_11751984",
+    "uspto_11685303_to_11820275"
+  ],
+  "extraction_precision": {
+    "n_nodes": 71,
+    "precision": 1.0,
+    "precision_ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  "all_nodes": {
+    "n": 71,
+    "accuracy": 0.8592,
+    "accuracy_ci95": [
+      0.7746,
+      0.9296
+    ],
+    "cohens_kappa": 0.7189,
+    "kappa_ci95": [
+      0.5503,
+      0.8594
+    ],
+    "confusion": {
+      "both_flexible_0": 28,
+      "both_rigid_1": 33,
+      "human_0_llm_1": 8,
+      "human_1_llm_0": 2
+    }
+  },
+  "high_conf_masked (>=0.70)": {
+    "n": 65,
+    "accuracy": 0.8462,
+    "accuracy_ci95": [
+      0.7538,
+      0.9231
+    ],
+    "cohens_kappa": 0.689,
+    "kappa_ci95": [
+      0.5094,
+      0.8465
+    ],
+    "confusion": {
+      "both_flexible_0": 23,
+      "both_rigid_1": 32,
+      "human_0_llm_1": 8,
+      "human_1_llm_0": 2
+    }
+  },
+  "confidence_calibration": {
+    "<0.70": {
+      "n": 6,
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "cohens_kappa": 1.0,
+      "kappa_ci95": [
+        1.0,
+        1.0
+      ],
+      "confusion": {
+        "both_flexible_0": 5,
+        "both_rigid_1": 1,
+        "human_0_llm_1": 0,
+        "human_1_llm_0": 0
+      }
+    },
+    "0.70-0.84": {
+      "n": 11,
+      "accuracy": 1.0,
+      "accuracy_ci95": [
+        1.0,
+        1.0
+      ],
+      "cohens_kappa": 1.0,
+      "kappa_ci95": [
+        1.0,
+        1.0
+      ],
+      "confusion": {
+        "both_flexible_0": 11,
+        "both_rigid_1": 0,
+        "human_0_llm_1": 0,
+        "human_1_llm_0": 0
+      }
+    },
+    ">=0.85": {
+      "n": 54,
+      "accuracy": 0.8148,
+      "accuracy_ci95": [
+        0.7037,
+        0.9074
+      ],
+      "cohens_kappa": 0.5768,
+      "kappa_ci95": [
+        0.3302,
+        0.7887
+      ],
+      "confusion": {
+        "both_flexible_0": 12,
+        "both_rigid_1": 32,
+        "human_0_llm_1": 8,
+        "human_1_llm_0": 2
+      }
+    }
+  }
+}

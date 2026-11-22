@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-20T20:06:50.244827+00:00",
+  "generated_at": "2026-11-21T19:49:50.803527+00:00",
   "totals": {
-    "graphs": 85,
-    "nodes": 698,
-    "edges": 723,
-    "avg_nodes_per_graph": 8.21,
-    "avg_edges_per_graph": 8.51,
-    "avg_confidence_score": 0.8317
+    "graphs": 387,
+    "nodes": 3232,
+    "edges": 3298,
+    "avg_nodes_per_graph": 8.35,
+    "avg_edges_per_graph": 8.52,
+    "avg_confidence_score": 0.8097
   },
   "label_balance": {
-    "flexible_0_count": 302,
-    "rigid_1_count": 396,
-    "flexible_0_pct": 43.27,
-    "rigid_1_pct": 56.73
+    "flexible_0_count": 1665,
+    "rigid_1_count": 1567,
+    "flexible_0_pct": 51.52,
+    "rigid_1_pct": 48.48
   },
   "modification_type_breakdown": {
-    "Untouched": 396,
-    "Replaced": 48,
-    "Trimmed": 105,
-    "Modified": 149
+    "Untouched": 1567,
+    "Replaced": 262,
+    "Trimmed": 711,
+    "Modified": 692
   },
   "component_type_breakdown": {
-    "Super_System": 86,
-    "System_Component": 514,
-    "Target_Object": 98
+    "Super_System": 357,
+    "System_Component": 2422,
+    "Target_Object": 453
   },
   "source_breakdown": {
-    "trizbench": 34,
-    "uspto": 51
+    "trizbench": 43,
+    "uspto": 344
   },
   "domain_breakdown": {
-    "Unknown": 27,
-    "F28D (Mechanical Engineering)": 7,
-    "F16F (Mechanical Engineering)": 6,
-    "F16K (Mechanical Engineering)": 6,
-    "B01D (Operations & Transport)": 6,
-    "B60G (Operations & Transport)": 5,
-    "H01M (Electricity)": 5,
-    "F16H (Mechanical Engineering)": 5,
-    "B25J (Operations & Transport)": 4,
-    "F04B (Mechanical Engineering)": 4,
-    "A61B (Human Necessities)": 3,
+    "B60G (Operations & Transport)": 40,
+    "F16K (Mechanical Engineering)": 40,
+    "F16H (Mechanical Engineering)": 39,
+    "Unknown": 36,
+    "B01D (Operations & Transport)": 34,
+    "A61B (Human Necessities)": 33,
+    "F16F (Mechanical Engineering)": 33,
+    "B25J (Operations & Transport)": 33,
+    "H01M (Electricity)": 32,
+    "F28D (Mechanical Engineering)": 31,
+    "F04B (Mechanical Engineering)": 29,
     "F21V (Mechanical Engineering)": 1,
     "C21C (Chemistry & Metallurgy)": 1,
     "G02B (Physics)": 1,
@@ -51,29 +51,33 @@
   },
   "node_count_histogram": {
     "4": 1,
-    "5": 2,
-    "6": 19,
-    "7": 13,
-    "8": 17,
-    "9": 12,
-    "10": 12,
-    "11": 2,
-    "12": 3,
+    "5": 12,
+    "6": 68,
+    "7": 69,
+    "8": 72,
+    "9": 64,
+    "10": 50,
+    "11": 15,
+    "12": 19,
+    "13": 11,
     "14": 3,
-    "15": 1
+    "15": 1,
+    "16": 2
   },
   "edge_count_histogram": {
-    "4": 1,
-    "5": 6,
-    "6": 13,
-    "7": 11,
-    "8": 12,
-    "9": 15,
-    "10": 13,
-    "11": 8,
-    "12": 1,
-    "13": 3,
-    "16": 1,
-    "18": 1
+    "4": 4,
+    "5": 25,
+    "6": 57,
+    "7": 52,
+    "8": 72,
+    "9": 62,
+    "10": 42,
+    "11": 32,
+    "12": 20,
+    "13": 10,
+    "14": 4,
+    "16": 5,
+    "18": 1,
+    "21": 1
   }
 }

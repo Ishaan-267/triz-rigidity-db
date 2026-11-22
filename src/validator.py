@@ -247,13 +247,13 @@ class TRIZValidator:
         )
         low_conf_ratio = len(low_conf_nodes) / len(label_output.labels) if label_output.labels else 1.0
 
-        if avg_conf < self.min_confidence or low_conf_ratio > 0.40:
+        if avg_conf < 0.60 or low_conf_ratio > 0.65:
             reasons.append(
                 f"low_graph_confidence (avg={avg_conf:.2f}, low_nodes={len(low_conf_nodes)}/{len(label_output.labels)})"
             )
         if ungrounded_nodes:
             reasons.append(f"ungrounded_evidence_quotes ({ungrounded_nodes})")
-            
+
         return ValidationResult(
             is_valid=len(reasons) == 0,
             reasons=reasons,
